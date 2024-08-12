@@ -314,7 +314,7 @@ class Telefono {
         }
     }
     //
-    mostarLlamadasMayoresDe5Minutos = () => {
+    mostrarLlamadasMayoresDe5Minutos = () => {
         if (this.encendido) {
             this.registroLlamadas.forEach((llamada) => {
                 if (llamada.duracion > 5) {
@@ -353,4 +353,4 @@ miCelu.mostrarContacto(2); */
 console.log('****************************');
 miCelu.mostrarMensajePorDestinatario('Carlos');
 miCelu.mostrarMensajePorDestinatario('Omar'); */
-miCelu.mostarLlamadasMayoresDe5Minutos()
+miCelu.mostrarLlamadasMayoresDe5Minutos();
